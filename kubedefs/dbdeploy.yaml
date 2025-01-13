@@ -19,7 +19,7 @@ spec:
         image: mjdocker24/vprofiledb
         ports:
         - name: vprodb-port
-        - containerPort: 3306
+          containerPort: 3306
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom: 
